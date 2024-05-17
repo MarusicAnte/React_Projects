@@ -1,0 +1,20 @@
+.App {
+  padding: 20px 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  background-color: #f9e7e98c;
+  color: black;
+  text-align: center;
+  font-size: 6rem;
+  margin: 0;
+  padding: 0.5em 0;
+  font-weight: bold;
+}
+
+.shop-content {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+}

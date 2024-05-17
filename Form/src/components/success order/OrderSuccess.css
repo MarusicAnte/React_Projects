@@ -1,0 +1,49 @@
+.orderSuccess,
+.summaryInfoBox {
+    border: 3px solid rgb(232, 232, 232);
+    background-color: rgb(245, 244, 244);
+    border-radius: 20px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderSuccess {
+    margin-bottom: 20px;
+}
+
+.orderStatus {
+    color: rgb(1, 218, 1);
+}
+
+.orderSuccess p,
+.orderDetails {
+    font-size: 1.5rem;
+}
+
+.orderDetails {
+    margin-top: 30px;
+}
+
+.orderDetails div {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+    margin-bottom: 15px;
+}
+
+.grayText {
+    color: rgb(168, 168, 168);
+}
+
+.darkBackground {
+    background-color: black;
+    color: rgb(168, 168, 168);
+}
+
+.yellowText {
+    color: #f5f5f5;
+    font-weight: bolder;
+}

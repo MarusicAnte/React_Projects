@@ -1,0 +1,19 @@
+.add-item {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.add-item h2 {
+    margin-top: 2em;
+    color: #613EC8;
+    font-weight: normal;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

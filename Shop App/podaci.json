@@ -1,0 +1,118 @@
+{
+  "garderoba": [
+    {
+      "vrsta": "Majica",
+      "velicina": "S",
+      "boja": "#cd1d1d",
+      "slika": "/Majica-kratkih-rukava.png",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "vrsta": "Hlače",
+      "velicina": "S",
+      "boja": "#08491c",
+      "slika": "/Kratke-hlače.png"
+    },
+    {
+      "id": "5",
+      "vrsta": "Suknja",
+      "velicina": "L",
+      "boja": "#f5a8a8",
+      "slika": "/Kratka-suknja.png"
+    },
+    {
+      "id": "3792",
+      "vrsta": "Majica",
+      "velicina": "M",
+      "boja": " ",
+      "slika": "/Majica-dugih-rukava.png"
+    },
+    {
+      "id": "f3b1",
+      "vrsta": "Hlače",
+      "velicina": "XL",
+      "boja": "#297bff",
+      "slika": "/Duge-hlače.png"
+    },
+    {
+      "vrsta": "Suknja",
+      "velicina": "S",
+      "boja": "#eec0f2",
+      "slika": "/Duga-suknja.png",
+      "id": "511b"
+    }
+  ],
+  "vrsta": [
+    {
+      "id": "1",
+      "name": "Majica"
+    },
+    {
+      "id": "2",
+      "name": "Hlače"
+    },
+    {
+      "id": "3",
+      "name": "Suknja"
+    }
+  ],
+  "velicina": [
+    {
+      "id": "1",
+      "name": "XS"
+    },
+    {
+      "id": "2",
+      "name": "S"
+    },
+    {
+      "id": "3",
+      "name": "M"
+    },
+    {
+      "id": "4",
+      "name": "L"
+    },
+    {
+      "id": "5",
+      "name": "XL"
+    },
+    {
+      "id": "6",
+      "name": "XXL"
+    }
+  ],
+  "slike": [
+    {
+      "id": "1",
+      "name": "Majica kratkih rukava",
+      "putanja": "/Majica-kratkih-rukava.png"
+    },
+    {
+      "id": "2",
+      "name": "Majica dugih rukava",
+      "putanja": "/Majica-dugih-rukava.png"
+    },
+    {
+      "id": "3",
+      "name": "Kratke hlače",
+      "putanja": "/Kratke-hlače.png"
+    },
+    {
+      "id": "4",
+      "name": "Duge hlače",
+      "putanja": "/Duge-hlače.png"
+    },
+    {
+      "id": "5",
+      "name": "Kratka suknja",
+      "putanja": "/Kratka-suknja.png"
+    },
+    {
+      "id": "6",
+      "name": "Duga suknja",
+      "putanja": "/Duga-suknja.png"
+    }
+  ]
+}

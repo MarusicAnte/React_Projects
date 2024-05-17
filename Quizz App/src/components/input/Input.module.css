@@ -1,0 +1,25 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.inputLabel {
+    width: max-content;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: black;
+}
+
+.inputElement,
+.selectElement {
+    box-sizing: border-box;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding-left: 5px;
+    border-radius: 0.4rem;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+}

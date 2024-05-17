@@ -1,0 +1,183 @@
+* {
+  color: #35403D;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #88CEFA;
+}
+
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+  width: 70%;
+}
+
+.scoreDisplay {
+  border: 3px solid blue;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: white;
+}
+
+.matchDate {
+  font-size: 1.8em;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+.scoreContentBox {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+}
+
+.clubContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.clubLogo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.clubTitle {
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.scores {
+  font-size: 8rem;
+  position: relative;
+  bottom: 20px;
+}
+
+.matchStatus {
+  font-size: 1.1em;
+}
+
+
+.matchScore span {
+  font-size: 8rem;
+  margin: 0px 20px;
+}
+
+.updateButton,
+.disabledButton {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.disabledButton {
+  cursor: default;
+}
+
+.resumeMatchBtn,
+.restartMatchBtn {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 5px 15px;
+  font-size: 1em;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(143, 143, 143);
+  cursor: pointer;
+}
+
+.scoreTracker {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.scoreTracker h2 {
+  margin-bottom: 10px;
+}
+
+.cardsTracker {
+  background-color: white;
+  margin-top: 20px;
+  border: 3px solid blue;
+  border-radius: 25px;
+  padding: 20px 0px;
+}
+
+.cardsTracker h2 {
+  font-size: 2rem;
+}
+
+.cardsTracker div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.refereeCard,
+.foulCard {
+  width: 50px;
+  height: 50px;
+}
+
+.refereeCardContainer {
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 15px;
+  padding: 10px 0px;
+  width: 40%;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.refereeCardContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.refereeCardContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.refereeCardContainer span {
+  margin: 0px 30px 0px 10px;
+  font-size: 1.8em;
+  padding-bottom: 10px;
+}
+
+.refereeCardContainer button {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(143, 143, 143);
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.refereeCardContainer .disabledBtn {
+  cursor: default;
+}

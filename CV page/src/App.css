@@ -1,0 +1,107 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  color: #988726;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.bruSpan {
+  text-decoration: line-through 5px #565A7B;
+}
+
+.batmanLogo {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid #565A7B;
+  margin-bottom: 20px;
+}
+
+.cardContainer {
+  border: 2px solid #4C576A;
+  background-color: #272E3C;
+  width: 40%;
+  border-radius: 20px;
+  padding: 5px 0px;
+  margin-bottom: 20px;
+}
+
+.cardTitle {
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #565A7B;
+  border-bottom: 2px solid #4C576A;
+}
+
+.cardContainer>div {
+  padding-top: 10px;
+}
+
+.dataRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 15px 30px 15px;
+}
+
+.rowData {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.rowDataValue {
+  font-size: 16px;
+}
+
+.abilityRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abilityName {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.abilitySlider {
+  height: 40px;
+  width: 80%;
+  background-color: #988726;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.sliderValue {
+  background-color: yellow;
+  height: 40px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sliderValue>span {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
